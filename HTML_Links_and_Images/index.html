@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    
+    <!--Links-->
+    <!--To create a link in HTML, we use the anchor element. We  then use the a tag, but
+    inside we need to have href inside the anchor tag. Href stands for Hypertext Reference
+    and that is where we put our link-->
+
+    <!--By default, any text without an href looks like normal text, but once we add the href
+    and add a link to it, itll have a bluish tint with an underline, thus showing its a link.
+    Now with this, when we click it, it does not open it in a different tag-->
+    <a href="https://github.com/hamim23z">My GitHub Repository</a>
+
+    <!--To open a link in a different tag, then we do this. We have target set to: _blank-->
+    <a href="https://github.com/hamim23z" target="_blank">My GitHub Repository</a>
+
+    <!--An optional thing to include is the rel attribite. This is used to describe the
+    relation between the current page and the one in the link. It's used for security reasons
+    and prevents the link to gain access to our site. But with new technology, its already done-->
+    <a href="https://github.com/hamim23z" target="_blank" rel="noopener noreferrer">My GitHub Repository</a>
+
+
+
+    <!--Absolute and Relative Links-->
+    <!--The example that we above is an abolute link because it has links to pages on other websites.-->
+    <a href="https://www.linkedin.com/in/hamimc/" target="_blank">My LinkedIn</a>
+
+    <!--A relative link is a link that includes file paths to another page that you are working on. For
+    example, I have example.html in this folder, so below is an example-->
+    <a href="example.html" target="_blank">Link to Example Page</a>
+    
+
+
+    <!--Images-->
+    <!--To display an image, use the img tag. There is no ending tag for this, it is a self closing tag. 
+    For the most part, when we use Images, we have then inside a folder called Images and then we simply
+    add it to the source. Now the alt is used to describe an image. If for some reason the image cannot load, 
+    the alt text will be shown instead-->
+    <!--For images, we usually change the height and width. This is more commonly done in CSS but we can
+    do it here as well. -->
+    <img src="html5.png" alt="The HTML 5 Logo"  height="100" width="200">
+
+
+
+
+
+</body>
+</html>
