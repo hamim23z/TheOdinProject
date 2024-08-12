@@ -1,0 +1,6 @@
+/*
+We have flex:1 and doing so makes the items grow to fill the available space. But if we want them to stay the same width, we simply remove flex:1 and then just add justify-content: space-between. By doing this, it aligns items across the main axis. 
+
+By doing align-items: center, it moves the items to the center of the screen. 
+
+One useful feature of flex is the gap property, when we do this, it adds a certain space between the flex items. It's like margin between items but its for flexbox. 

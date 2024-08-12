@@ -1,0 +1,6 @@
+/*
+The default direction for a flex container is horizontal or a row, but we can change the direction to vertical aka column. The syntax is simple, 
+flex-direction: row;
+flex-direction: column;
+
+Flex containers have 2 axes, the main and cross. When flex direction is changed, the direction of these axes also change. 
