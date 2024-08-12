@@ -4,17 +4,21 @@ The flex declaration is actually a shorthand for three properties that can be se
 1. flex-grow
 2. flex-shrink
 3. flex-basis
-
 So when flex:1 was said, it means that flex-grow:1, flex-shrink:1, and flex-basis: 0. 
 
 
-Flex Grow: expects a single number as its balue and the number is used as the items growth factor. By doing flex:1, it means each div grows the same amount. So every div ends up the same size. If we did flex:2 to one div, then that div would be 2x the size. 
+Flex Grow: expects a single number as its balue and the number is used as the items growth factor. By doing flex:1, it means
+each div grows the same amount. So every div ends up the same size. If we did flex:2 to one div, then that div would be 2x the size. 
 
 
-Flex Shrink: expects a single number as its value and the number is used as the items shrink factor. It is only applied if the size of all flex items is larger than the parent item. For example, if the divs had 100px and the container was smaller than 300px, so then it would have to shrink. To have an item not shrink evenly, we do flex-shrink: 0. 
+Flex Shrink: expects a single number as its value and the number is used as the items shrink factor. It is only applied if the size
+of all flex items is larger than the parent item. For example, if the divs had 100px and the container was smaller than 300px, so then
+it would have to shrink. To have an item not shrink evenly, we do flex-shrink: 0. 
 
 
-Flex Basis: sets the initial size of a flex item. So anything growing or shrinking starts from that baseline size. The default value is always flex-basis: 0%. When we do flex-basis: auto, it tells the item to check for a width declaration. 
+Flex Basis: sets the initial size of a flex item. So anything growing or shrinking starts from that baseline size. The default value is
+always flex-basis: 0%. When we do flex-basis: auto, it tells the item to check for a width declaration. 
+
 
 
 At the end of the day, flex:1 will be the most common thing used. We maybe will use flex-shrink:0 but other than that, the rest is barely used. 

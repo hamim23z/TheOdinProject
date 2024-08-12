@@ -1,5 +1,6 @@
 /*
-Flexbox is a way to arrange items into rows or columns. These items will flex aka grow or shrink based on rules that can be defined. Flexbos definitely has a lot of moving parts and it can be hard to track. 
+Flexbox is a way to arrange items into rows or columns. These items will flex aka grow or shrink based on rules
+that can be defined. Flexbos definitely has a lot of moving parts and it can be hard to track. 
 */
 
 .flex-container {
@@ -19,4 +20,4 @@ Flexbox is a way to arrange items into rows or columns. These items will flex ak
 A flex container is any element that has a display: flex on it. 
 A flex item is any element that lives inside of a flex container. 
 Any element can be both a flex container and a flex item. We can do display:flex on any flex item and then use flexbox to arrange its children. 
--   Creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts.
+- Creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts.
